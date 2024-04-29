@@ -9,7 +9,7 @@ function lancerPartie() {
     // Calcul de l'index de la cellule où placer le vaisseau en fonction de ses coordonnées
     var index = posShipY * largeur + posShipX;
     // Remplacement du contenu de la cellule par l'image du vaisseau
-    cellules[index].innerHTML = '<img src="space-invaders.png">';
+    cellules[index].innerHTML = '<img src="Space Invader/Images/Vaisseau.png">';
     initAlien();
 }
 
@@ -43,13 +43,13 @@ function deplacerVaisseau(event) {
 function effaceShip() { // Créer une fonction qui remplace 
     var cellules = document.getElementsByTagName('td');
     var index = posShipY * largeur + posShipX;
-    cellules[index].innerHTML = '<img src="blankpage_enblanc_178.png">';
+    cellules[index].innerHTML = '<img src="Case blanche.png">';
 }
 
 function afficheShip() {
     var cellules = document.getElementsByTagName('td');
     var index = posShipY * largeur + posShipX;
-    cellules[index].innerHTML = '<img src="space-invaders.png">';
+    cellules[index].innerHTML = '<img src="Vaisseau/Vaisseau.png">';
 }
 
 // Attacher la fonction deplacerVaisseau aux événements du clavier utilisateur

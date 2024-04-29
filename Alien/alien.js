@@ -19,7 +19,7 @@ function deplaceAlien(x, y) {
     // Afficher l'alien à la nouvelle position sur le plateau
     var celluleNouvelle = document.getElementById('contenu').querySelector('table').rows[y].cells[x];
     var imageAlien = document.createElement('img');
-    imageAlien.src = 'alien.png'; // Chemin vers l'image de l'alien
+    imageAlien.src = 'Alien/alien.png'; // Chemin vers l'image de l'alien
     celluleNouvelle.appendChild(imageAlien);
 
     // Appeler récursivement la fonction pour continuer le déplacement de l'alien

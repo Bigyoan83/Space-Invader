@@ -17,7 +17,7 @@ function initPlateau() {    // Définition de la fonction initPlateau
             var cellule = document.createElement("td"); // Création d'une balise de cellule de tableau
             console.log(cellule);   
             var img = document.createElement("img"); // Création d'une balise image pour contenir l'image "vide.png"
-            img.src = "blankpage_enblanc_178.png";   // Chemin de l'image ship.png
+            img.src = "Case blanche.png";   // Chemin de l'image Case blanche.png
             cellule.appendChild(img);
             ligne.appendChild(cellule); // Récupère et intègre la variable créé cellule
             plateau[i][j] = img;

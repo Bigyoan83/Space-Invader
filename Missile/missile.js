@@ -10,7 +10,7 @@ function pewPew() {
     // Modifier le plateau pour afficher le missile à l'emplacement correspondant
     var celluleMissile = document.getElementById('contenu').querySelector('table').rows[posMissileY].cells[posMissileX]; // Sélectionner la cellule correspondant à la position du missile sur le plateau  
     var imageMissile = document.createElement('img'); // Créer un élément d'image pour représenter le missile
-    imageMissile.src = 'space-invaders.png';  // Spécifier le chemin de l'image du missile
+    imageMissile.src = 'Missile/Missile.png';  // Spécifier le chemin de l'image du missile
     celluleMissile.appendChild(imageMissile);  // Ajouter l'image du missile dans la cellule sélectionnée du plateau
     deplacementMissile(posMissileY, posMissileX); // Appel la fonction déplacementMissile avec la position du missile Y et X
 }
@@ -30,7 +30,7 @@ function deplacementMissile(y, x) {
         
         // Créer un élément d'image pour représenter le missile
         var imageMissile = document.createElement('img');
-        imageMissile.src = 'space-invaders.png'; // Chemin vers l'image du missile
+        imageMissile.src = 'Missile/Missile.png'; // Chemin vers l'image du missile
         
         // Afficher l'image du missile dans la nouvelle cellule sur le plateau
         celluleNouvelle.appendChild(imageMissile);
