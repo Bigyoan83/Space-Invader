@@ -4,3 +4,6 @@ td {
 tr  {
     border: 1px solid black;
 }
+#bouton {
+    text-align: center;    
+}
